@@ -27,7 +27,7 @@ const assign = Object.assign || function EmberAssign(original, ...args) {
 
 export default Component.extend({
   layout,
-  tagName: '',
+  tagName: 'span',
   renderInPlace: fallbackIfUndefined(false),
   verticalPosition: fallbackIfUndefined('auto'), // above | below
   horizontalPosition: fallbackIfUndefined('auto'), // right | center | left

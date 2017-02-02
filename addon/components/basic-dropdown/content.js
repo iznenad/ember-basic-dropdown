@@ -29,7 +29,7 @@ function waitForAnimations(element, callback) {
 
 export default Component.extend({
   layout,
-  tagName: '',
+  tagName: 'span',
   animationEnabled: !testing,
   isTouchDevice: (!!self.window && 'ontouchstart' in self.window),
   hasMoved: false,
